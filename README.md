@@ -27,6 +27,7 @@ fecha_utiles/
 ├── scripts/
 │       ├── main.py
 ├── src/
+│    ├── fecha_utiles.py
 │       ├── __init__.py
 │       ├── calculo_dias.py
 │       ├── fin_de_semana.py
@@ -44,7 +45,7 @@ fecha_utiles/
 ### Calcular días entre fechas
 ```python
 
-from fecha_utils import dias_entre_fechas
+from fecha_utiles import dias_entre_fechas
 
 # Queremos calcular los días entre dos fechas dadas.
 
@@ -60,7 +61,7 @@ print(diferencia)  # 333
 
 ### Sumar días a una fecha
 ```python
-from fechas_utils import sumar_dias
+from fechas_utiles import sumar_dias
 
 #Queremos sumar días a una fecha dada.
 
@@ -77,7 +78,7 @@ print(fecha_final)  # "2025-01-11"
 
 ### Fin de semana
 ```python
-from fecha_utils import es_fin_de_semana
+from fecha_utiles import es_fin_de_semana
 
 # Queremos saber si una fecha es sábado o domingo.
 

@@ -1,4 +1,4 @@
-from fecha_utils.validar_fecha import convertir_fecha
+from fecha_utiles.validar_fecha import convertir_fecha
 
 def dias_entre_fechas(fecha1: str, fecha2: str, formato="%Y-%m-%d"):
     """
@@ -12,7 +12,7 @@ def dias_entre_fechas(fecha1: str, fecha2: str, formato="%Y-%m-%d"):
     Returns:
         int: Días de diferencia entre ambas fechas.
     """
-    f1 = convertir_fecha(fecha1, formato)
-    f2 = convertir_fecha(fecha2, formato)
+    f1 = convertir_fecha(fecha1)
+    f2 = convertir_fecha(fecha2)
     diferencia = abs((f2 - f1).days)
     return diferencia

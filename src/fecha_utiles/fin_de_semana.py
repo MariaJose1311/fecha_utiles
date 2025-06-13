@@ -1,4 +1,4 @@
-from fecha_utils.validar_fecha import convertir_fecha
+from fecha_utiles.validar_fecha import convertir_fecha
 
 def es_fin_de_semana(fecha: str) -> bool:
     """
