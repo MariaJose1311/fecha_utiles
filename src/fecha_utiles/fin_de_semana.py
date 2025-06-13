@@ -11,4 +11,4 @@ def es_fin_de_semana(fecha: str) -> bool:
         bool: True si es fin de semana, False si no.
     """
     fecha_dada = convertir_fecha(fecha)
-    return fecha_dada.weekday() >= 5  # 5 = sábado, 6 = domingo
+    return fecha_dada.weekday() >= 5  # 5 = sábado, 6 = domingo 

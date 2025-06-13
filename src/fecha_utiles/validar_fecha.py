@@ -12,7 +12,7 @@ def convertir_fecha(fecha_str: str) -> datetime:
         fecha_str (str): La fecha en formato string.
 
     Returns:
-        datetime: Fecha convertida correctamente.
+        datetime: Fecha convertida correctamente. 
 
     Raises:
         FechaInvalidaError: Si ningún formato coincide.

@@ -13,6 +13,6 @@ def sumar_dias(fecha: str, dias: int, formato="%Y-%m-%d") -> str:
     Returns:
         str: Fecha resultante en formato especificado.
     """
-    fecha_inicial = convertir_fecha(fecha)
+    fecha_inicial = convertir_fecha(fecha) 
     fecha_final = fecha_inicial + timedelta(days=int(dias))
     return fecha_final.strftime(formato)
